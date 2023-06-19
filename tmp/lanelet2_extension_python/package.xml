@@ -11,15 +11,15 @@
   <buildtool_depend>autoware_cmake</buildtool_depend>
 
   <depend>lanelet2_core</depend>
+  <depend>lanelet2_extension</depend>
   <depend>lanelet2_io</depend>
   <depend>lanelet2_maps</depend>
   <depend>lanelet2_projection</depend>
   <depend>lanelet2_routing</depend>
   <depend>lanelet2_traffic_rules</depend>
   <depend>lanelet2_validation</depend>
-  <depend>mrt_cmake_modules</depend>
-  <depend>lanelet2_extension</depend>
   <depend>libboost-python-dev</depend>
+  <depend>mrt_cmake_modules</depend>
 
   <test_depend>ament_cmake_ros</test_depend>
 
