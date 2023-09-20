@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
 project(lanelet2_extension_python)
 
-#find_package(autoware_cmake REQUIRED)
-#autoware_package()
-
 find_package(mrt_cmake_modules REQUIRED)
 # NOTE: defined in mrt_cmake_modules/FindBoostPython.cmake
 find_package(BoostPython REQUIRED)
@@ -24,4 +21,4 @@ if (PROJECT_PYTHON_SOURCE_FILES_SRC)
   )
 endif()
 
-#ament_auto_package()
+mrt_install(FILES ${PROJECT_INSTALL_FILES})
