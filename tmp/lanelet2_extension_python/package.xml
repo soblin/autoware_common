@@ -21,6 +21,8 @@
   <depend>lanelet2_validation</depend>
   <depend>libboost-python-dev</depend>
   <depend>mrt_cmake_modules</depend>
+  <depend>interpolation</depend>
+  <depend>geometry_msgs</depend>
 
   <test_depend>ament_cmake_ros</test_depend>
 
